@@ -1,0 +1,136 @@
+* {
+    color: #FFFFFF;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background:  #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 430px;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+
+
+.card .profile-header{
+    height: 180px;
+
+}
+
+.imgfoto{
+    border-radius: 20px 20px 0 0;
+    width: 430px;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    border: #ffffff 5px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-65px);
+}
+
+.container-text {
+    margin-top: -40px;
+}
+
+h1.name {
+    color: #000000;
+    margin: 0;
+    text-align: center;
+
+}
+
+h3.desc {
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3.text {
+   color: #000000;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+h2.desc {
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+}
+
+.address-icon {
+
+    width: 24px;
+    
+}
+
+.socials {
+    margin: 30px 0;
+}
+
+.socials a {
+    margin-right: 15px;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+.socials img {
+    width: 48px;
+    transition: all .3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+}
+
+.socials img:hover {
+    transform: scale(110%);
+}
+
+.socials img:active {
+    transform: scale(103%);
+}
+
+[type="submit"] {
+ 
+  width: 50%;
+  background-color: #0e4bf1;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:500;
+}
